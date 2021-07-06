@@ -1,0 +1,67 @@
+body {
+    font-family:  verdana;
+    width: 100%;
+  }
+  
+  .header{
+      display: flex;
+      margin-left: 100px;
+      align-items: center;
+  }
+  .half-width{
+    width:50%;
+  }
+  .half-width h1{
+    font-size: 56px;
+    line-height: 26px;
+  }
+  .half-width h1 span{
+    color: darkorange;
+   }
+  .half-width p{ 
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom:30px;
+    width: 80%;
+    line-height: 26px;
+  }
+  .button{
+    text-decoration: none;
+    font-size: 18px;
+    background-image: linear-gradient(to right,darkorange,tomato);
+    color: white;
+    padding: 21px 36px;
+    border-radius: 34px;
+   }
+   img.firstimage{
+       width: 90%;
+      
+       
+   }
+   .image-sec{
+       width: 100%;
+       align-items: center;
+   }
+   img.secondimage{
+       width: 80%;
+       margin-left: 180px;
+       margin-right: auto;
+       padding-top: 65px;
+       display: flex;
+   }
+   .middle-part{
+       background-image: url("food-network-main/images/shapes/7.png");
+       background-size: cover;
+       width: 100%;
+       display: flex;
+   }
+   .right-m{
+     margin-top: 120px;
+     margin-right: 150px; 
+   }
+.middle-part h1 {
+    font-size: 40px;
+}
+.right-m p{
+    margin-bottom: 50px;
+}
